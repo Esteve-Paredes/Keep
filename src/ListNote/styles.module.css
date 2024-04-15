@@ -1,0 +1,6 @@
+.containerList {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}

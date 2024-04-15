@@ -1,0 +1,47 @@
+.Empty-Aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1.5px solid #e5e5e5;
+  gap: var(--spacing-2);
+  padding: 16px 0px;
+  /* position: fixed;
+  top: 58px;
+  left: 0; */
+  height: auto;
+}
+.Empty-Aside-Items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.Empty-Aside-Item {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 25px 25px 0px;
+  background: white;
+  color: black;
+  width: 280px;
+  height: 38px;
+}
+
+.enabledItem {
+  background-color: #e5e5e5;
+}
+
+.disabledItem {
+  background-color: white;
+}
+
+a {
+  color: #18181b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}

@@ -1,0 +1,15 @@
+.palette-colors__ten-colors {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 145px;
+  justify-content: space-between;
+  position: absolute;
+  top: -140%;
+}
+
+.palette-colors__color-box {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
